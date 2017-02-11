@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>54ae9e1f-56ee-4056-ba6b-1022514cfc87</ProjectGuid>
+    <ProjectGuid>eb645916-79c1-45eb-988b-a65171e5dcfa</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IMS</RootNamespace>
-    <AssemblyName>IMS</AssemblyName>
+    <RootNamespace>IMS.BusinessLogic</RootNamespace>
+    <AssemblyName>IMS.BusinessLogic</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
