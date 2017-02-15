@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IMS.BusinessLogic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,7 +13,11 @@ namespace IMS.UI.Controllers
         {
             return View();
         }
-
+        public ActionResult ClinicIndex()
+        {
+            var clinicBusiness = new ClinicBusiness();
+            return View(clinicBusiness.GetAllClinics());
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

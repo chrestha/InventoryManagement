@@ -50,7 +50,8 @@ namespace IMS.Service
 
         public void Dispose()
         {
-            _datacontext.Dispose();
+            
+          //  _datacontext.Dispose();
             _datacontext = null;
         }
     }

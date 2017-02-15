@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Template.Data;
+using IMS.Data;
+using IMS.Model;
 
-namespace Template.Service
+namespace IMS.Service
 {
     public interface IClinicRepository: IDisposable
     {
@@ -13,7 +12,7 @@ namespace Template.Service
         void Insert(Clinic model);
         void Update(Clinic model);
         void Delete(Clinic model);
-        IEnumerable<Clinic> Find(Func<Clinic, bool> predicate);   
+        IEnumerable<Clinic> Find(Func<Clinic, bool> predicate);
 
     }
 }

@@ -85,7 +85,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationDbContext.cs" />
+    <Compile Include="clinic.cs" />
+    <Compile Include="IdentityModels.cs" />
+    <Compile Include="IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

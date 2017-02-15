@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Template.Model
+namespace IMS.Model
 {
     public class ClinicView
     {

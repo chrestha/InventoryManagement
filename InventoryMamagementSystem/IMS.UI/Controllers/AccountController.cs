@@ -8,7 +8,8 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using IMS.UI.Models;
+using IMS.Model;
+using IMS.Data;
 
 namespace IMS.UI.Controllers
 {

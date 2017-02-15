@@ -5,8 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace IMS.Service
-{
-    class InventoryRepository
+{/// <summary>
+/// Repository Service Intreface
+/// </summary>
+    public interface  IInventoryRepository:IDisposable
     {
+
     }
 }

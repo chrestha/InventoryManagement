@@ -18,5 +18,7 @@ namespace IMS.Data
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<IMS.Data.Clinic> Clinics { get; set; }
     }
 }
